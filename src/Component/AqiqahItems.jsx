@@ -1,13 +1,21 @@
-import image from "../assets/umiLogo.png";
+import image from "../assets/goat1.png";
+import image2 from "../assets/goat2.png";
 
 function AqiqahItems({ paket, jumlah, sate, gule, harga, tambahan }) {
   return (
     <>
       <h1 className="text-center font-bold ">{paket}</h1>
       <div className="grid md:grid-cols-2 grid-cols-1 items-center">
-        <div>
-          <img className="" src={image} alt="Makanan" />
-        </div>
+        {jumlah === 1 && (
+          <div>
+            <img className="" src={image} alt="Makanan" />
+          </div>
+        )}
+        {jumlah === 2 && (
+          <div>
+            <img className="" src={image2} alt="Makanan" />
+          </div>
+        )}
         <div className="text-left text-sm">
           {tambahan === true && (
             <div className="text-center text-lg font-bold mb-5">

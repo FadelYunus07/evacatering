@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../assets/asset1.svg";
+import { Link } from "react-router-dom";
 
 function FooterComponent() {
   return (
@@ -17,22 +18,22 @@ function FooterComponent() {
             <p className="text-sm md:text-base">Hubungi Kami di : </p>
           </div>
           <div className=" md:flex md:gap-3 grid grid-cols-1 text-center my-3 text-md">
-            <a href="" className="hover:scale-105">
+            <Link to={"#"} className="hover:scale-105">
               <i className="fa-brands fa-instagram pe-1 text-xl"></i>
               @ummicatering
-            </a>
-            <a href="" className="hover:scale-105">
+            </Link>
+            <Link to={"https://wa.me/6283847761042"} className="hover:scale-105">
               <i className="fa-brands fa-whatsapp pe-1 text-xl"></i>
-              +6285774179312
-            </a>
-            <a href="" className="hover:scale-105">
+              +6283847761042
+            </Link>
+            <Link to={"#"} className="hover:scale-105">
               <i className="fa-brands fa-facebook pe-1 text-xl"></i>
               ummicatering
-            </a>
-            <a href="" className="hover:scale-105">
+            </Link>
+            <Link to={"#"} className="hover:scale-105">
               <i className="fa-brands fa-tiktok pe-1 text-xl"></i>
               @ummicatering
-            </a>
+            </Link>
           </div>
         </div>
         <div className="lg:flex items-center md:hidden hidden">

@@ -15,8 +15,8 @@ function TestimoniPages() {
   };
 
   return (
-    <div className="bg-[#F1EB90] md:h-[400px] lg:h-screen h-screen pt-[150px] pb-[600px] text-gray-800 text-5xl">
-      <h1 className="text-center pb-[3%]">Testimonial</h1>
+    <div className="bg-[#F1EB90] md:h-[800px] lg:h-screen h-screen pt-[95px] pb-[55%] text-gray-800 text-5xl">
+      <h1 className="text-center pb-[10%]">Testimonial</h1>
       <div className="flex overflow-x-auto w-[90%] h-[400px] pt-5 gap-4 scroll-smooth px-4 mx-auto" ref={elementRef}>
         {testimoni.map((items, i) => (
           <TestimoniItems key={i} title={items.title} text={items.text} image={items.image} />

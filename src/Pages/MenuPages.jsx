@@ -6,7 +6,7 @@ import AqiqahItems from "../Component/AqiqahItems";
 
 function MenuPages() {
   return (
-    <div className="bg-gradient-to-b from-[#ffe1ba] to-[#F3B664] text-gray-700 py-[10%]">
+    <div className="bg-gradient-to-b from-[#ffe1ba] to-[#F3B664] text-gray-700 py-[10%] lg:pt-[10%] md:pt-[10%] pt-[40%]">
       <h1 className="text-5xl font-bold text-center">Menu Paket</h1>
       <h1 className="text-2xl mt-9 font-bold text-center">AQIQAH</h1>
       <div className="rounded-md md:rounded-lg gap-4 p-5 grid md:grid-cols-2 grid-cols-1">

@@ -19,18 +19,23 @@ function HeaderComponent() {
         <i className={`fa fa-${openNav ? "close" : "bars"} text-2xl`}></i>
       </div>
       <div
-        className={`md:flex md:gap-10 md:my-7 md:static items-center md:z-auto left-0 md:h-0 md:pt-0 h-[150px] pt-[5%] absolute z-[-1] md:border-none border-b-[4px] border-b-[#535353] bg-[#9FBB73] md:w-auto w-full transition-all duration-300 ${
+        className={`md:flex md:gap-10 md:my-7 md:static items-center md:z-auto left-0 md:h-0 md:pt-0 h-[200px] pt-[5%] absolute z-[-1] md:border-none border-b-[4px] border-b-[#535353] bg-[#9FBB73] md:w-auto w-full transition-all duration-300 ${
           openNav ? "opacity-100 " : "opacity-0 hidden md:opacity-100"
         }`}
       >
         {link.map((navLink) => (
-          <div className="text-white text-[16px] font-semibold gap-7 md:flex md:items-center text-center cursor-pointer m-2">
+          <div className="text-white text-[16px] font-semibold gap-7 md:flex md:items-center text-center cursor-pointer p-2">
             <Link onClick={() => setOpenNav(false)} key={navLink.id} to={navLink.path} className="hover:underline underline-offset-8">
               <i className={`md:inline-block hidden pe-3 ${navLink.icon}`}></i>
               {navLink.text}
             </Link>
           </div>
         ))}
+      </div>
+      <div className="hover:scale-110 transition-all duration-150 ease-in fixed top-[85%] lg:right-4 md:right-4 right-2 opacity-50 hover:opacity-100 z-[99]">
+        <Link className="bg-green-600 border-white border-[3px] rounded-xl p-5 text-white font-semibold" to={"https://wa.me/6283847761042"}>
+          <i className="fa-brands fa-whatsapp fa-2xl m-0 p-0"></i>
+        </Link>
       </div>
     </div>
   );

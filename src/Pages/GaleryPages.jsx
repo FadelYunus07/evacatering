@@ -42,7 +42,7 @@ function GaleryPages() {
         </div>
       )}
 
-      <div className="bg-gradient-to-b from-[#F1EB90] to-[#ffe1ba] lg:pt-[15%] md:pt-[30%] pt-[150px] text-gray-800 text-5xl font-bold">
+      <div className="bg-gradient-to-b from-[#F1EB90] to-[#ffe1ba] lg:pt-[15%] md:pt-[30%] pt-[95px] text-gray-800 text-5xl font-bold">
         <h1 className="text-center pb-[3%]">Galeri</h1>
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
           <Masonry className="p-[5%]">

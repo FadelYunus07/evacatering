@@ -53,7 +53,7 @@ function OrderPages() {
   };
 
   return (
-    <div className="w-full lg:h-screen md:py-[10%] bg-gradient-to-b lg:py-[1%] py-5 from-[#F3B664] to-[#EC8F5E] flex justify-center items-center">
+    <div className="w-full lg:h-screen md:pb-[4%] bg-gradient-to-b lg:pb-[1%] pb-5 from-[#F3B664] to-[#EC8F5E] flex justify-center items-center">
       <div data-aos="fade-up" data-aos-duration="1000" className="bg-white shadow-2xl rounded-lg p-8 text-gray-600 md:w-[50%] w-[80%] text-center">
         <h1 className="md:text-4xl text-xl md:mb-6">Form Order</h1>
         <form className="text-left">
