@@ -50,7 +50,7 @@ function FooterComponent() {
         </div>
       </div>
       <div className="text-center pb-4">
-        <p>Copyright &copy; {new Date().getFullYear()}, this Website is made by DGland</p>
+        <p>Copyright &copy; {new Date().getFullYear()}, by DGland</p>
       </div>
     </>
   );
