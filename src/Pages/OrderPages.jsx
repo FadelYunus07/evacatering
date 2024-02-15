@@ -43,7 +43,7 @@ function OrderPages() {
       message += `%0aJumlah kotak: ${jumlah}`;
     }
 
-    const whatsappLink = `https://wa.me/6285774179312?text=${message}`;
+    const whatsappLink = `https://wa.me/6283847761042?text=${message}`;
 
     // Display confirmation message
     if (window.confirm("Apakah Anda yakin ingin mengirim pesan?")) {

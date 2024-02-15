@@ -28,7 +28,7 @@ function MenuPages() {
       <div className="text-center lg:w-[20%] md:w-[60%] mb:py-0 py-[5%] m-auto">
         <h3 className="text-2xl pb-8">Tanya dan Konsultasi</h3>
         <div className="hover:scale-110 transition-all duration-150 ease-in">
-          <Link className="bg-green-600 rounded-full p-5 text-white font-semibold" to={"https://wa.me/6285774179312"}>
+          <Link className="bg-green-600 rounded-full p-5 text-white font-semibold" to={"https://wa.me/6283847761042"}>
             <i className="fa-brands fa-whatsapp pe-3"></i>
             HUBUNGI SEKARANG
           </Link>
